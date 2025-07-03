@@ -1,5 +1,6 @@
 import sounddevice as sou
 from scipy.io.wavfile import write
+#funcion principal que graba el audio
 def audio(segundos):
  fs=44100 
  seconds=segundos
